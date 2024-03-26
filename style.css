@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+
+.home header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    z-index: 99;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 14px 11vw;
+}
+
+header ul li a:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.all{
+    padding: 0 15%;
+}
+
+.marketing{
+    margin-top: 90px;
+}
+
+.marketing h1{
+    font-size: 40px;
+}
+
+.marketing p{
+    margin-bottom: 30px;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.photo p{
+    position: absolute;
+    z-index: 22;
+    /* padding-left: 50px; */
+    /* padding-top: 50px; */
+    background-color: white;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 30px ;
+}
+
+.what p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.what .line{
+    width: 160px;
+    height: 5px;
+    background-color:#746767;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+} 
+
+.designer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    line-height: 24px;
+}
+
+.design{
+    background-color: #ccc;
+    padding: 25px 20px;
+}
+
+.design h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.branding{
+    background-color: #403d3d;
+    padding: 25px 20px;
+    color: white;
+}
+
+.branding h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.consultation{
+    background-color: #302c49;
+    padding: 25px 20px;
+    color: white;
+}
+
+.consultation h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.promise{
+    background-color: rgb(12, 12, 12);
+    padding: 25px 20px;
+    color: white;
+}
+
+.promise h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.price{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 80px;
+}
+
+.price h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.base{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    /* line-height: 30px; */
+    text-align: center;
+    margin-bottom: 100px;
+    /* border: 1px solid; */
+}
+
+.base .basic{
+    border: 1px solid rgba(128, 128, 128, 0.399);
+    width: 45%;
+    height: 550px;
+    background: #fffefe;
+    /* border-bottom: #403d3d; */
+}
+
+.base .basic .head{
+    height: 60px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.base .basic p{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.257);
+}
+
+.base .basic .price{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.base .basic .btn{
+    padding: 30px 0;
+}
+
+.base .basic button{
+    margin: 30px 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: rgb(79, 232, 79);
+    border: none;
+    color: #f1f1f1;
+}
+
+.base .basic button:hover {
+    background-color: #d9d4d4;
+    color: black;
+    cursor: pointer;
+}
+
+.who{
+    text-align: center;
+    font-size: 25px;
+}
+
+.lines{
+    width: 130px;
+    height: 5px;
+    background-color:#4b4141;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.people{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-bottom: 100px;
+}
+
+.people img{
+    width: 100%;
+}
+
+.people .jane{
+    /* border: 1px solid; */
+    box-shadow: 0 5px 8px 5px #403d3d1f;
+    padding: 0px 0px;
+}
+
+.people .jane h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    padding: 0 12px;
+}
+
+.people .jane h6{
+    font-size: 15px;
+    color: #9d9797;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+
+.people .jane p{
+    margin-bottom: 25px;
+    padding: 0 12px;
+}
+
+.people .jane button{
+    padding: 10px 41%;
+    margin: 10px;
+    background-color: #d9d4d4;
+    border: none;
+}
+
+.people .jane button:hover{
+    background-color: #746767;
+    cursor: pointer;
+}
+
+.contact{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.contact .liness{
+    width: 120px;
+    height: 5px;
+    background-color:#746767;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container input{
+    padding: 12px ;
+    width: 100%;
+    border: 1px solid rgb(209, 203, 203);
+}
+
+.container .input{
+    margin-top: 20px;
+}
+
+.container .button button{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-right: 50px;
+    /* padding: 12px 0px; */
+    border: none;
+}
+
+.container button:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    line-height: 50px;
+    /* background-color: #ccc; */
+    font-size: 18px;
+    padding: 50px;
+    /* margin-bottom: 100px; */
+}
+
+.footer .foot button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer .foot button:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+.footer .foot button a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.footer .foot button a:hover{
+    color: black;
+}
+
+.footer .icons{
+    font-size: 30px;color: #403d3d;
+}
+
+.footer .icons a{
+    color: #433f3f;
+}
+
+.footer .icons a:hover{
+    color: blue;
+}
+
+.footer p span{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1300px) {
+    .all{
+        padding: 0 8%;
+    }
+
+    .people .jane button{
+        padding: 10px 40%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .home header ul li a {
+        padding: 12px 88px; 
+    }
+
+    .all{
+        padding: 0 2%;
+    }
+
+    .design{
+        background-color: #ccc;
+        padding: 25px 20px;
+    }
+
+    .people .jane button{
+        padding: 10px 38%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .home header ul li a {
+        padding: 12px 81px; 
+    }
+
+    .designer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        line-height: 24px;
+        font-size: 19px;
+    }
+
+    .people .jane button{
+        padding: 10px 36.5%;
+    }
+}
+
+
+@media screen and (max-width:770px) {
+    .home header ul li a {
+        padding: 12px 75px; 
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .home header{
+        width: 100%;
+    }
+
+    .home header ul li a {
+        padding: 15px 37px;
+    }
+
+    .all{
+        padding: 0 4%;
+    }
+
+    .base{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .base .basic{
+        margin: 5px 0;
+        width: 95%;
+    }
+
+    .people{
+        flex-direction: column;
+    }
+
+    .people .jane button{
+        padding: 10px 42%;
+        font-size: 15px;
+    }
+    
+    .people .jane{
+        margin: 10px 0;
+    }
+
+    .container .button button{
+        width: 100%;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .home header ul li a {
+        padding: 15px 32px;
+    }
+}
+
+
+@media screen and (max-width:395px) {
+    .home header ul li a {
+        padding: 15px 26px;
+    }
+
+    .all{
+        padding: 0 4%;
+    }
+
+    .people .jane button{
+        padding: 10px 40%;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .home header ul li a {
+        padding: 15px 23px;
+    }
+
+    .people .jane button{
+        padding: 10px 39%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .home header ul li a {
+        /* padding: 15px 30px; */
+    }
+
+    .people .jane button{
+        /* padding: 10px 40.5%; */
+    }
+}
+
+@media screen and (max-width:320px) {
+    .home header ul li a {
+        padding: 15px 18px;
+    }
+
+    .people .jane button{
+        padding: 10px 38%;
+    }
+}
